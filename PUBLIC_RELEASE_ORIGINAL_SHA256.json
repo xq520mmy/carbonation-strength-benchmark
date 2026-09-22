@@ -1,0 +1,108 @@
+{
+  "changed_files": {
+    "C1_crossdb_audit/external_validation/extracted_data.csv": {
+      "original_sha256": "18c97a26241c3ceae1ed3c6ada97c18867d02a70b59a47858397c8d32fa9268c",
+      "public_sha256": "0c4b38408e959aed2ec4547381a863e9654de639162491758d08d1e29862c9c7"
+    },
+    "C1_crossdb_audit/external_validation/results/extval_tierA.json": {
+      "original_sha256": "bfc74cc219e8859786ac95193b91cf3e543facbac223d7478d07050a2651af8a",
+      "public_sha256": "7753f99c8619f0bc93105081328dbb4e719a30dfd10835f99b3996e20024bce3"
+    },
+    "C1_crossdb_audit/external_validation/results/extval_tierAB.json": {
+      "original_sha256": "aa52a6aa1cc621c00b08e4ea23df8ff781b38164a1fb7f33a0046fe8e5e35e30",
+      "public_sha256": "80e1e00ba854d828327362af7dd93d028285eeb4a23064a956c2517269a7d347"
+    },
+    "C1_crossdb_audit/external_validation/results/extval_tierAB_28d.json": {
+      "original_sha256": "9a9fc158fc3e0807429e52f1a4f6b8d1d5acb32ac35283042cb8f0defd1bd18e",
+      "public_sha256": "aacbc0d6a6553137bb0576eca81708080130aabc48fe87632f3a37af478f3904"
+    },
+    "C1_crossdb_audit/external_validation/results/extval_tierA_28d.json": {
+      "original_sha256": "e17045e13e071f31c1765e9ec65de6da1df9375846069dbc743f4400d3091a7a",
+      "public_sha256": "770c78a81d37339bba09bd8e86c62ab85f72f8aaf0f193a1f4a038a563df2800"
+    },
+    "C1_crossdb_audit/model_experiments/data/README.md": {
+      "original_sha256": "e2a3055b3538652d355b39b721fffcf06dd084a8207e498ef914ca4a32599fe4",
+      "public_sha256": "f8d917a5e6dbb6243e59445fb4dd8503649e0c1805c1c8923da748fea66c743e"
+    },
+    "C1_crossdb_audit/probe/row_provenance.json": {
+      "original_sha256": "1db0a6572dd721ce7c953c80cff7359ea1a5c5e212a98e74cc8f725aa00f95b9",
+      "public_sha256": "812e4f369a5ce756ce866801b062642192797d947ffe20db645ae8367b41ac80"
+    },
+    "README.md": {
+      "original_sha256": "3b542d90e9aa4be312bbf8a12f12d714cbb224874ba9ec2ab3ef4f36fdf86e35",
+      "public_sha256": "0997fc0599a0f32440d9f86faec74bcee830d1e98c6e58ea255381e2bd862a4a"
+    },
+    "_shared/revision_20260921/C1/C1_PRESSURE_AUDIT_REPORT.md": {
+      "original_sha256": "c58ff44e55abc7ba325fffb3c00bd009ad14f268bc4999c64f4b4d7c191e748a",
+      "public_sha256": "1a8938d2c3903b1210c41b0f753d675a1d811a5021ed2ce0f57270ec729e57d9"
+    },
+    "_shared/revision_20260921/C1/PRESSURE_AUDIT_PROTOCOL.md": {
+      "original_sha256": "b20a3163c1d8b00ec177542b9f37ce2931b830dc84b1384722f2b73495119f29",
+      "public_sha256": "edcb5819cfd78aff40c851b2cd0b62f2c889316b832186b1d2b160ec19de308b"
+    },
+    "_shared/revision_20260921/C1/UNIT_ASSUMPTION_AUDIT.json": {
+      "original_sha256": "a6f91ad5bdec8909ce176e1312181a2feb21a6099a40a3dcfafcc38839dcca89",
+      "public_sha256": "4fec6d8cd2e4b2864a413646c12bb1ab2a935ae05ccc67ac38d3f15e55616c97"
+    },
+    "_shared/revision_20260921/C1/pressure_audit_rows.csv": {
+      "original_sha256": "7ac3958704145c85af18d9833d1fefe0c6a7e6bb3cf5535de8db067a4d62fd8d",
+      "public_sha256": "cc3b4ad44fdb67e8b2a8fe62c4dfcf3e2847790232b4017d50a71b0760842c86"
+    },
+    "_shared/revision_20260921/C1/pressure_audit_sources.csv": {
+      "original_sha256": "c4ff57ccc18cdeb3cf13f0f543b71ce1c37fdecc6ff2cc454263e9a9c9149335",
+      "public_sha256": "2157e0650a4169649fbfc545d284ce95c9a0fc6dba0d940e83a0a49903d98efc"
+    }
+  },
+  "counts": {
+    "redacted_unit_notes": {
+      "C1_crossdb_audit/external_validation/results/extval_tierA.json": 42,
+      "C1_crossdb_audit/external_validation/results/extval_tierAB.json": 64,
+      "C1_crossdb_audit/external_validation/results/extval_tierAB_28d.json": 17,
+      "C1_crossdb_audit/external_validation/results/extval_tierA_28d.json": 6
+    },
+    "removed_csv_fields": {
+      "C1_crossdb_audit/external_validation/extracted_data.csv": {
+        "fields": [
+          "evidence"
+        ],
+        "rows": 258
+      },
+      "_shared/revision_20260921/C1/pressure_audit_rows.csv": {
+        "fields": [
+          "pressure_excerpt"
+        ],
+        "rows": 106
+      },
+      "_shared/revision_20260921/C1/pressure_audit_sources.csv": {
+        "fields": [
+          "pressure_excerpt"
+        ],
+        "rows": 15
+      }
+    },
+    "removed_json_fields": {
+      "C1_crossdb_audit/external_validation/results/extval_tierA.json": 73,
+      "C1_crossdb_audit/external_validation/results/extval_tierAB.json": 106,
+      "C1_crossdb_audit/external_validation/results/extval_tierAB_28d.json": 42,
+      "C1_crossdb_audit/external_validation/results/extval_tierA_28d.json": 21,
+      "C1_crossdb_audit/probe/row_provenance.json": 199,
+      "_shared/revision_20260921/C1/UNIT_ASSUMPTION_AUDIT.json": 1
+    }
+  },
+  "redaction_policy": {
+    "markdown_policy": "Quoted source passages were removed; DOI/location and non-verbatim audit descriptions remain.",
+    "removed_csv_columns": [
+      "evidence",
+      "pressure_excerpt"
+    ],
+    "removed_json_fields": [
+      "evidence",
+      "column_decoding_evidence",
+      "source_evidence",
+      "pressure_excerpt"
+    ],
+    "unit_note_policy": "Long source-derived notes (at least 350 characters and containing a source-location marker) were replaced with a redaction notice. Concise unit/derivation notes remain."
+  },
+  "release": "v1.0.0",
+  "source_manifest_original_sha256": "f7778d13012f6d103ef943589748836b3c34648eb1477da7889c7d4de7d82085"
+}
