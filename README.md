@@ -1,4 +1,4 @@
-# Carbonation-strength benchmark v1.3.0
+# Carbonation-strength benchmark v1.3.1
 
 Version `v1.3.0` adds the bounded publication-lineage and exact-row audit completed on 5 October 2026. The earlier cohort benchmark `v1.2.0` and all older archive bytes remain unchanged. This additive version contains the new audit in `c1-lineage-twin-audit-20261005.tar.xz`; it does not claim new physical validation, an archival DOI, or a new blanket software license.
 
@@ -17,6 +17,15 @@ python tools/verify_saved_results.py
 The verifier recomputes saved metrics without fitting. With lawful local copies of the separate provider and Chu workbooks, use the opt-in input adapter and `--bind-workbooks` instructions inside the bundle for source-byte and seven-input identity checks. No workbook, publisher PDF/HTML, long quotation, model, environment, contact record or private conversation is included.
 
 The bundle's inner README records its prepublication staging status; this repository wrapper and `LINEAGE_AUDIT_PROVENANCE_v1.3.0.json` identify the later additive publication. Original code, seals and saved scientific outputs were not changed to hide failures. The original strict stratum-summary equality check has six Python-runtime SD discrepancies of at most 2.22×10⁻¹⁶. A separately identified independent verifier passes every saved cell at an explicit 10⁻¹² absolute tolerance. The actual QA environment differs from the original frozen Python/NumPy environment; no refit-equivalence claim is made. See `PORTABILITY_NOTES.md` inside the bundle and `PUBLIC_RELEASE_CHANGES_v1.3.0.md`.
+
+## Additional historical numerical audits (v1.3.1)
+
+Version `v1.3.1` also deposits two small, unchanged historical addenda:
+
+- `c1-source-deletion-audit-20260929.zip` reproduces the 41-record saved-prediction source-group-deletion sensitivity using anonymous numerical records and the standard library. The full-cohort ExtraTrees RMSE exceeds the constant training mean; one group deletion reverses that ordering. The four author-merged source groups are not proven independent laboratories.
+- `c1-train-only-lookup-audit-20260928.zip` reproduces the training-only exact-input lookup over ten five-fold random splits using a lawfully obtained, hash-checked provider workbook supplied by the user. Mean R² is 0.732923; 1,544 of 1,980 held-out appearances have a training-key match. The 0.991385 full-table group-mean value remains descriptive and uses each focal response.
+
+Both original scripts ran successfully from clean extractions without estimator fitting; an independent implementation checked 260 source-deletion scalars and all lookup seeds/aggregates. The frozen ZIPs, their internal creation labels and scientific outputs are preserved. The source-deletion inner title's historical “Restricted” build label describes its minimized-input creation record; this repository now deposits that exact numerical/code archive. Neither archive contains third-party full texts, quotations, source locators, workbook files, credentials, model weights or environments. No blanket code/output reuse licence or new physical-validation claim is granted. See `ADDITIONAL_AUDITS_PROVENANCE_v1.3.1.json` for hashes, actual QA environment and reproduction limits.
 
 ## Earlier cohort benchmark
 

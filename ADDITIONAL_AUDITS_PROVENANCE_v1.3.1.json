@@ -1,0 +1,51 @@
+{
+  "version": "v1.3.1",
+  "prepared_utc": "2026-10-06T03:39:24.436942+00:00",
+  "base_commit": "a76c780c43df63ca07f3d104886d04bc59c35d3b",
+  "publication_state_at_file_creation": "PREPARED_FOR_USER_AUTHORIZED_GIT_PUBLICATION",
+  "archives": [
+    {
+      "original_archive_name": "C1_Source_deletion_addendum_20260929_sanitized_v2.zip",
+      "published_archive_name": "c1-source-deletion-audit-20260929.zip",
+      "sha256": "c8c0bb14f892c088e407275b89851e3dd066af7fe15698c7a543d2415f344fc3",
+      "bytes": 6786,
+      "historical_archive_bytes_unchanged": true
+    },
+    {
+      "original_archive_name": "C1_Train_only_lookup_audit_20260928.zip",
+      "published_archive_name": "c1-train-only-lookup-audit-20260928.zip",
+      "sha256": "24aa8b8af18b09a82f8aff2d03cf4c9f83808fffac818ed04b69422f1967d38a",
+      "bytes": 3276,
+      "historical_archive_bytes_unchanged": true
+    }
+  ],
+  "qa_receipt_sha256": "37268e490af9b445f7a60add658c693a57801c1473363813d7a149654cab3b1c",
+  "actual_qa_environment": {
+    "python": "3.11.15 (main, Jun 23 2026, 15:46:51) [Clang 22.1.3 ]",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "sklearn": "1.6.1",
+    "openpyxl": "3.1.5"
+  },
+  "source_delete_independent_checks": 260,
+  "source_delete_max_abs_difference": 3.552713678800501e-15,
+  "lookup_independent_checks_match": true,
+  "lookup_max_abs_difference": 0,
+  "tolerance": 1e-12,
+  "original_scripts_exit_codes": [
+    0,
+    0
+  ],
+  "no_estimator_fitting_or_retuning": true,
+  "original_zip_bytes_unchanged": true,
+  "archive_doi": null,
+  "new_blanket_reuse_license": null,
+  "limitations": [
+    "Lookup README does not pin dependency versions; the successful existing environment is recorded above.",
+    "Source-deletion runner generates results but does not itself enforce its input manifest or assert a baked expected output; independent QA checked both input hashes and all numerical calculations.",
+    "Anonymous numerical keys do not guarantee inability to link distinctive published values.",
+    "Shared source groups and random splits do not establish independent physical validation.",
+    "Neither ZIP contains an express code/output reuse licence; publication follows existing owner authorization without relicensing third-party works.",
+    "Prepared provenance is not evidence of remote availability; public bytes must be independently verified after push."
+  ]
+}
