@@ -1,0 +1,30 @@
+{
+  "status": "PUBLIC_REPOSITORY_SNAPSHOT_PREPARED_NOT_YET_PUSH_CONFIRMED",
+  "snapshot": "2026-10-06-next-round",
+  "archive": {
+    "name": "c1-next-round-audit-20261006.zip",
+    "sha256": "56bd9b01411b648c7730b2e4cba6ccf6d843afe8abfcb574989e53ff3097d54b",
+    "bytes": 13800283,
+    "members": 351
+  },
+  "original_archive_unchanged": true,
+  "scientific_counts": {
+    "original_frozen_jobs": 319,
+    "tree_cv_fits": 900,
+    "tree_final_fits": 1144,
+    "tree_total_fits": 2044,
+    "TabPFN_final_contexts": 7,
+    "discarded_training_only_TabPFN_smoke_contexts": 1,
+    "final_saved_prediction_cells": 1151,
+    "exact_exposure_formula_rows": 1226
+  },
+  "local_acceptance_digests": {
+    "independent_staging_review": "ea43ba6307391cd045854d720d62425baed467a63aa7063532cb09d2367fe52d",
+    "clean_replay_exit_code": 0,
+    "saved_result_checks": 110302
+  },
+  "licence_status": "PENDING_ACTUAL_RIGHTSHOLDER_CHOICE",
+  "archival_doi": null,
+  "private_author_metadata_included": false,
+  "manuscript_uploaded": false
+}

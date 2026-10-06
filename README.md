@@ -2,6 +2,10 @@
 
 Version `v1.3.0` adds the bounded publication-lineage and exact-row audit completed on 5 October 2026. The earlier cohort benchmark `v1.2.0` and all older archive bytes remain unchanged. This additive version contains the new audit in `c1-lineage-twin-audit-20261005.tar.xz`; it does not claim new physical validation, an archival DOI, or a new blanket software license.
 
+## Next-round audit snapshot (6 October 2026)
+
+An additive [next-round numerical snapshot](review_snapshots/2026-10-06-next-round/README.md) includes source-guided headline reconstruction, the Yeh transfer intervention and the general duplicate-exposure formula. It retains every 1,151 final saved-prediction cell, all 50-seed comparisons and failed reconstruction criteria. The 351-file archive has an independently passed clean saved-results replay. Its optional refit command covers the original 319-job matrix; later extensions remain saved-result-only in that portable wrapper. This snapshot does not create a new version tag, archival DOI or blanket code licence. The earlier versioned archives remain unchanged.
+
 ## New lineage and exact-row audit
 
 The new bundle preserves 42 historical files, 55 total payload files, all 2,200 saved prediction groups, 600 frozen split definitions, 800 fixed-Test stratum rows and all 50 seeds. It records 33 size-two exact-row groups and source-bound equality of 2,376 numeric cells. The identified broad frame bounds distinct complete compilations at six to seven; independent physical-origin K remains unknown. Grouped splits with R² ≥ 0.95 and all adverse results are retained.
