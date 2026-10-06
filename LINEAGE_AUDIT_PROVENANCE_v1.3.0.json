@@ -1,0 +1,57 @@
+{
+  "version": "v1.3.0",
+  "prepared_utc": "2026-10-06T03:26:47.204387+00:00",
+  "base_commit": "8ef253488ba30f11edf344beba74403155ee7ba6",
+  "publication_state_at_file_creation": "PREPARED_FOR_USER_AUTHORIZED_GIT_PUBLICATION",
+  "archive_name": "c1-lineage-twin-audit-20261005.tar.xz",
+  "archive_bytes": 1544916,
+  "archive_sha256": "79cc3c135177a61d5a4e5d61fce1aba0b751e2a9d12d2d5fcfb647c3f17d38c2",
+  "payload_manifest_sha256": "69b5e7dc4d8260980399966dcf2f90b61749f4c239dcd4bcfcc85f92f8492792",
+  "payload_file_count": 55,
+  "unchanged_historical_files": 42,
+  "root_independent_clean_extraction": {
+    "status": "PASS",
+    "no_refit": true,
+    "historical_source_files_checked": 42,
+    "release_payload_hashes_checked": 54,
+    "original_split_count": 500,
+    "amendment_split_count": 100,
+    "prediction_groups_checked": 2200,
+    "prediction_rows_checked": 110962,
+    "fixed_strata_rows_checked": 800,
+    "fixed_strata_summary_cells_checked": 16,
+    "split_only_twin_simulations_checked": 20000,
+    "all_50_seeds_retained": true,
+    "scalar_checks": 37408,
+    "max_absolute_numeric_error": 3.552713678800501e-15,
+    "absolute_numeric_tolerance": 1e-12,
+    "max_fixed_strata_summary_error": 1.7763568394002505e-15,
+    "exact_duplicate_groups": 33,
+    "registry_records": 30,
+    "source_workbooks_bound": false,
+    "true_seven_input_disjointness_recomputed": false,
+    "numeric_source_cells_compared": 0,
+    "limitations": [
+      "No model fitting or population validation.",
+      "Without --bind-workbooks labels/keys are internally consistent but not independently bound to provider bytes.",
+      "Distinct-compilation bounds are not counts of independent physical experiments."
+    ],
+    "runtime": {
+      "python": "3.11.15",
+      "numpy": "2.4.6",
+      "pandas": "2.3.3"
+    }
+  },
+  "scientific_limits": [
+    "No environment installation or model refit.",
+    "Original strict-summary equality limitation is retained in separate provenance; tolerant numerical checks are separately identified.",
+    "Inner staging README records bundle-creation status; publication wrapper must identify later actual remote publication."
+  ],
+  "original_strict_failure_retained": true,
+  "original_strict_sd_max_discrepancy": 2.220446049250313e-16,
+  "historical_stage_notes_preserved": true,
+  "third_party_inputs_excluded": true,
+  "archive_doi": null,
+  "new_blanket_software_license": null,
+  "remote_verification": "Must be recorded independently after an actual successful push; this prepared record is not evidence of remote availability."
+}
