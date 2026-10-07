@@ -1,0 +1,22 @@
+{
+  "title": "C1 production artwork overlay for the next-round audit",
+  "scientific_snapshot_commit": "39a6ce09ffaa51febbe4710f14a3552b0dba64c5",
+  "archive": "c1-next-round-audit-20261006_ARTWORK.zip",
+  "archive_sha256": "fb48e3729bddad8176fa6aeba4d9936c4fd4229f2754b8ef7f0cd8a34f3bc2d0",
+  "archive_bytes": 13852485,
+  "members": 354,
+  "original_science_members_preserved_exact": 351,
+  "additions": [
+    "production_artwork/Figure1_paired_deletion.pdf",
+    "production_artwork/Figure2_duplicate_exposure.pdf",
+    "production_artwork/OVERLAY_MANIFEST.json"
+  ],
+  "scope": "The original351 saved scientific files and embedded manifests are unchanged. Two previously accepted aggregate native vector figures and explanatory overlay metadata are added. This is an additive artwork/code subset, not a manuscript preprint, new experiment or revised statistical result.",
+  "saved_result_replay_scope": "The exact original351 retain their prior actual saved-result replay acceptance. No new model or scientific replay was run for the inert artwork additions.",
+  "no_raw_data_weights_correspondence_author_information_or_manuscript_uploaded": true,
+  "new_blanket_licence_granted": false,
+  "licence_selection_pending": true,
+  "new_release_or_tag": null,
+  "archival_doi": null,
+  "author_approval_inferred": false
+}
